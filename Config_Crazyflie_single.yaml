@@ -1,0 +1,35 @@
+qtm_ip: 192.168.1.146
+
+uris:
+# - radio://0/80/2M/E7E7E7E7E5
+# - radio://0/80/2M/E7E7E7E7E7
+# - radio://0/80/2M/E7E7E7E7E8
+- radio://0/110/2M/E7E7E7E7E9
+
+drone_bodies:
+# - DroneE5
+# - DroneE7
+# - DroneE8
+- DroneE9
+mass:
+
+# - 36.40
+# - 39.08
+# - 36.58
+- 39.10
+
+Ts: 0.1
+
+Tsim: 5
+
+T_coeff:
+- 1
+# - 1
+# - 1
+# - 0
+
+alpha:
+- 1.0
+# - 1.0
+# - 1.0
+# - 1.0

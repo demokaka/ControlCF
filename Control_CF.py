@@ -38,7 +38,7 @@ full_ref = trajgen.get_trajectory_mat(path_to_file=ptf,dt=Ts)
 
 ref = {}
 
-vref = {}
+vref = {}   
 for i in range(len(drone_bodies)):
     ref[uris[i]] = full_ref[i]["trajectory"]
 

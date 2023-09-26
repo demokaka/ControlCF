@@ -12,9 +12,6 @@ This script provides the class StreamingData6DEULER(thread) which play the role
 as a communication link between QTM software to the computer that recuperates the 
 6DOF data of all the rigid bodies defined. 
 
-
-    
-
 """
 
 def create_body_index(xml_string):
